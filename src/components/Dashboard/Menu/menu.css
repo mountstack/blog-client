@@ -1,0 +1,28 @@
+
+.active { 
+    border-inline-start-width: 4px;
+    border-color: rgba(59, 131, 246, 0.7); 
+    background-color: rgba(59, 131, 246, 0.15); 
+    /* background: linear-gradient(to right, rgba(59, 131, 246, 0.15) 0%, rgba(59, 131, 246, 0.12) 60%, rgba(59, 131, 246, 0.08) 80%, transparent 100%);  */
+} 
+
+.active > span  {
+    color: white;
+    font-weight: 600;
+}
+.active > .icon {
+    color: white;
+}
+
+.hover-menu {
+    color: rgba(229, 231, 235, 0.775);
+}
+
+.hover-menu:not(.active):hover { 
+    color: rgba(229, 231, 235);
+    border-color: rgba(156, 163, 175, 0.7); 
+    background-color: rgba(93, 91, 91, 0.35);
+    /* background: linear-gradient(to right, rgba(93, 91, 91, 0.35) 0%, rgba(93, 91, 91, 0.25) 60%, rgba(93, 91, 91, 0.1) 80%, transparent 100%);  */
+} 
+
+

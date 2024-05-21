@@ -1,0 +1,7 @@
+
+#react-select-2-input:focus { 
+    box-shadow: none !important; /* Remove box shadow */
+    outline: 0 !important; /* Remove outline */
+}
+
+

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer components { 
+    .btn {
+        @apply flex gap-2 justify-center items-center py-2 px-5 font-semibold rounded-lg
+    }
+    .btn-light {
+        @apply bg-gray-100 hover:bg-gray-200 text-black border-2 transition-all
+    }
+    .btn-danger {
+        @apply bg-red-500 hover:bg-red-600 text-white
+    }
+    .add-new-btn {
+        @apply 
+            rounded-full px-4 py-1 
+            text-blue-500 text-sm font-semibold 
+            border border-gray-200 hover:border-gray-300 
+            bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-200  hover:from-slate-50 hover:via-slate-200 hover:to-slate-300 
+            transition-all 
+    } 
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
